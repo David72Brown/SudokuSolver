@@ -1,4 +1,6 @@
 This program will solve any (soluble) sudoku, including 3D ones which use 9x9x9 cubes.
+It also solves "killer" sudokus which are 2D sudokus which obey all the usual rules but additionally, areas of the 9x9 grid are divided up into irregularly shaped areas ("cages") and totals
+are provided for the numbers within each cage.
 
 In the 2D sudokus, the 2 diagonals are expected to contain each digit 1-9 exactly once.
 In the 3D sudokus, the 4 diagonals of the cube are expected to contain each digit 1-9 exactly once. (Those 4 diagonals are from the near left lower corner to the far right upper corner,
