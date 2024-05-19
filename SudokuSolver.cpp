@@ -1510,7 +1510,7 @@ void SolveItNicely(void) // Nicely means you can do some guessing if you need to
         else
         {
             printf("Could not solve it deductively so will try guessing.\n");
-            DumpPossibilities();
+            // DumpPossibilities();
             TryGuessing();
             if (GridValid)
             {
